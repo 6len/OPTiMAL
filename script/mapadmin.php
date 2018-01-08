@@ -360,7 +360,7 @@ echo source();
 
         //create ajax
         $("#subcreate").click(function() {
-            var query = "INSERT INTO VENUES (id,x,y,roomname,location,capacity) VALUES (";
+            var query = "INSERT INTO VENUES (id,roomname,location,capacity,x,y) VALUES (";
             var opt = ['id', 'roomname', 'location', 'capacity', 'x', 'y'];
             for (var i = 0; i < opt.length; i++) {
                 if (document.getElementById("C" + opt[i]).value != "") {

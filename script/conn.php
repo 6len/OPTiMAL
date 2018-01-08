@@ -1,6 +1,6 @@
 <?php
 try{
-$myPDO = //this is sensitive information
+$myPDO = new PDO('pgsql:host=optimal-dev.cs.nuim.ie;dbname=optimal', 'optimal', 'Aeyies8oot');
 if($myPDO){
 }
 }catch(PDOException $e)

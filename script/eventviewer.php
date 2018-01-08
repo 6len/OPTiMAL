@@ -187,9 +187,6 @@ $shared = $_GET['id'] ?: 'false';
 
             var lc = L.control.locate({
                 position: 'topleft',
-                locateOptions: {
-                    enableHighAccuracy: true
-                },
                 strings: {
                     title: "Get my location!"
                 }
